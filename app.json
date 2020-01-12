@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Light Chat",
+    "slug": "lightchat",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#6B97DA"
+    },
+   
+   
+    "android": {
+      "package": "com.panatechrwanda.light.chat",
+      "versionCode": 1
+    },
+    
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.panatechrwanda.light.chat",
+      "supportsTablet": true
+    }
+  }
+}
